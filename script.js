@@ -6,7 +6,7 @@ var password = document.getElementById('password')
 
 function generatepassword(){
   var newpassword = " "
-    for (i = 0; i <10; i++) {
+    for (i = 0; i <35; i++) {
       newpassword += characters.charAt(Math.floor(Math.random() * characters.length));
     }
     password.value = newpassword
@@ -17,10 +17,5 @@ function generatepassword(){
 
   // Add event listener to generate button
   generateBtn.addEventListener("click", function () {generatepassword()})
-    // var newpassword = " "
-    // for (i = 0; i < 13; i++) {
-    //   newpassword += characters.charAt(Math.floor(Math.random() * characters.length));
-    // }
-    // password.value = newpassword
     
-    // 
+    
